@@ -12,13 +12,13 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/topon-packages/TPNiOS_SPM.git", from: "6.5.60"),
-        .package(url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git", exact: "7.7.7")
+        .package(url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git", exact: "7.8.0")
     ],
     targets: [
         .binaryTarget(
             name: "AnyThinkVungleAdapter",
-            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/TPN_Release/iosnetwork_2/AnyThinkVungleAdapter/7.7.7.2.9/AnyThinkVungleAdapter-7.7.7.2.9.zip",
-            checksum: "9b812760bd37256adf7c88b97238b661346a3704a4171256c4d5dd2888d0b29f"
+            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/TPN_Release/iosnetwork_2/AnyThinkVungleAdapter/70800.2.10/AnyThinkVungleAdapter-70800.2.10.zip",
+            checksum: "305626b4108c833af076366c369ad98153ba62bc6f81fcc3e2c516c079b54346"
         ),
         .target(
             name: "TPNMediationVungleAdapterTarget",
